@@ -1,2 +1,2 @@
 # SwiftNet
-implement of SwiftNet:Real-time Video Object Segmentation
+implementation of SwiftNet:Real-time Video Object Segmentation
