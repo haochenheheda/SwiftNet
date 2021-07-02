@@ -31,7 +31,7 @@ Note:
 	The fps is tested on one P100, which does not include the time of image loading and evaluation.
 
 ## Acknowledgement
-	This codebase borrows the code and structure from [official STM repository](https://github.com/seoungwugoh/STM).
+This codebase borrows the code and structure from [official STM repository](https://github.com/seoungwugoh/STM).
 
 
 ## Citation
