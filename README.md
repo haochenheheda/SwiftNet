@@ -24,7 +24,7 @@ python eval.py -g 0 -y 17 -s val -D 'path to davis'
 
 Performance on Davis-17 val set.
 | backbone | J&F | J |  F  | FPS | weights |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | resnet-18 | 77.6 | 75.5 | 79.7 | 65 | [`link`](https://drive.google.com/file/d/1I1agjrVIIUK6xU3pQF6wJ-TSvXEtg0kv/view?usp=sharing) |
 
 Note:
