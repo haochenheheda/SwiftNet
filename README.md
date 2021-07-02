@@ -37,10 +37,11 @@ This codebase borrows the code and structure from [official STM repository](http
 ## Citation
 
 ```
-@article{wang2021swiftnet,
+@inproceedings{wang2021swiftnet,
   title={SwiftNet: Real-time Video Object Segmentation},
   author={Wang, Haochen and Jiang, Xiaolong and Ren, Haibing and Hu, Yao and Bai, Song},
-  journal={arXiv preprint arXiv:2102.04604},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={1296--1305},
   year={2021}
 }
 ```
