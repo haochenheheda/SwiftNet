@@ -1,5 +1,5 @@
 # SwiftNet
-Implementation of SwiftNet:Real-time Video Object Segmentation.
+The official PyTorch implementation of SwiftNet:Real-time Video Object Segmentation, which has been accepted by CVPR2021. 
 
 
 ## Requirements
@@ -12,7 +12,7 @@ Implementation of SwiftNet:Real-time Video Object Segmentation.
  - tqdm
  
 ## Training
- - The training pipeline of Swiftnet is similar with the training pipeline of [STM](https://openaccess.thecvf.com/content_ICCV_2019/html/Oh_Video_Object_Segmentation_Using_Space-Time_Memory_Networks_ICCV_2019_paper.html). You could refer to our reproduced [STM training code](https://github.com/haochenheheda/Training-Code-of-STM).
+ - The training pipeline of Swiftnet is similar with the training pipeline of [STM](https://openaccess.thecvf.com/content_ICCV_2019/html/Oh_Video_Object_Segmentation_Using_Space-Time_Memory_Networks_ICCV_2019_paper.html), which can be found in our reproduced [STM training code](https://github.com/haochenheheda/Training-Code-of-STM).
 
 ## Inference
 Usage
@@ -28,14 +28,14 @@ Performance on Davis-17 val set.
 | resnet-18 | 77.6 | 75.5 | 79.7 | 65 | [`link`](https://drive.google.com/file/d/1I1agjrVIIUK6xU3pQF6wJ-TSvXEtg0kv/view?usp=sharing) |
 
 Note:
-	The fps is tested on one P100, which does not include the time of image loading and evaluation.
+	The FPS is tested on one P100, which does not include the time of image loading and evaluation cost.
 
 ## Acknowledgement
-This codebase borrows the code and structure from [official STM repository](https://github.com/seoungwugoh/STM).
+This repository is partially founded on the [official STM repository](https://github.com/seoungwugoh/STM).
 
 
 ## Citation
-
+If you find this repository helpful and want to cite SwiftNet in your own projects, please use the following citation info.
 ```
 @inproceedings{wang2021swiftnet,
   title={SwiftNet: Real-time Video Object Segmentation},
